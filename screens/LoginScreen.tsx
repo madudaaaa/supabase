@@ -11,7 +11,7 @@ export default function LoginScreen({ navigation }: any) {
     if (error) {
       Alert.alert("Erro", error.message);
     } else {
-      navigation.navigate("Profile");
+      navigation.navigate("ProfileView");
     }
   };
 
